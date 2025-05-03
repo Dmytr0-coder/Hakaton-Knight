@@ -107,22 +107,20 @@ footer {
 } 
 
 .story {
-   justify-content: space-between;
-  display: flex;
   align-items: center;
   font-family: 'Almendra', serif;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
   border:none;
 }
- .myButton:hover {
-      background-color: #45a049; /* Mörkare grön när musen är över */
-      transform: scale(1.05); /* Gör knappen lite större */
-    }
-.myButton:active {
-      transform: scale(0.98); /* Tryckeffekt */
-    }
-
 .pfooter {
   font-size:19px;
 } 
+ 
+ .story:hover {
+      background-color: #a03600; /* Mörkare grön när musen är över */
+      transform: scale(1.05); /* Gör knappen lite större */
+    }
+.story:active {
+      transform: scale(0.98); /* Tryckeffekt */
+    }
