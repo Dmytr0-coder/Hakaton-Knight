@@ -40,6 +40,9 @@ h1, h2, a {
 
 main p {
   text-align: center;
+ font-family: "Almendra", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .elly {
