@@ -8,6 +8,7 @@ header {
   background-color: #B48F00;
 display: flex;
 justify-content: center;
+border-radius:5px;
  
 }
 
